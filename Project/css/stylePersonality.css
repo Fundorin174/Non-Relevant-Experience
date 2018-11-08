@@ -213,16 +213,15 @@ padding-top: 20px;
     padding: 8px 12px;
     position: absolute;
     bottom: 8px;
-    width: 100%;
-    text-align: center;
     color:  #ffffff;
     font-weight: bold;
+    width: 100%;
 }
 
-.mySlidestravel .text, .mySlidessport .text{
+.mySlidesvnikni .text{
     color:  #000000;
 }
-.mySlidessport .text{
+.mySlidessport .text, .mySlidesextrim .text, .mySlidestravel .text{
     color: #00ffff;
 }
 .dot, .dotextrim, .dotkvn, .dottravel, .dotvnikni, .dotrock, .dotsport, .dotfootball,  .dotweb_dev{
