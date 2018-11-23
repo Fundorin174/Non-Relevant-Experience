@@ -1,17 +1,20 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 a {
     text-decoration: none;
     list-style: none;
 }
-body{
+
+body {
     font-family: 'Lora', serif;
     background-color: #eae5e5;
     margin: 0;
 }
-header{
+
+header {
     color: #ffffff;
     padding-top: 25px;
     padding-bottom: 30px;
@@ -20,25 +23,26 @@ header{
     z-index: 0;
     height: 50px;
 }
+
 #header_stand {
     width: 100%;
     height: 50px;
     padding-top: 25px;
     padding-bottom: 30px;
-    background: url(../img/main/header_back.jpg); 
+    background: url(../img/main/header_back.jpg);
     position: fixed;
     top: 0;
     z-index: 9999;
 }
 
-.header_stand{
+.header_stand {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    vertical-align: 
+    vertical-align:
 }
 
-.wrapper{
+.wrapper {
     width: 95%;
     margin: 0 auto;
 }
@@ -48,12 +52,15 @@ header h1 {
     margin-left: 20px;
     color: #ffffff;
 }
-header nav a.icon{
-	display: none;
+
+header nav a.icon {
+    display: none;
 }
+
 .links {
     padding-top: 10px;
 }
+
 nav a {
     font-size: 18px;
     margin-left: 20px;
@@ -62,12 +69,14 @@ nav a {
     text-transform: uppercase;
     font-weight: bolder;
 }
+
 nav a:hover {
     color: #72d0d4;
 }
+
 /*Вертикальное меню*/
 
-#menuVertical{
+#menuVertical {
     width: 230px;
     height: 100%;
     position: fixed;
@@ -76,7 +85,8 @@ nav a:hover {
     transition: .3;
     background: #191b22;
 }
-#menuVertical ul{
+
+#menuVertical ul {
     display: flex;
     flex-direction: column;
     height: auto;
@@ -84,23 +94,25 @@ nav a:hover {
     padding: 0;
     list-style: none;
 }
-#menuVertical ul li{
+
+#menuVertical ul li {
     display: block;
     width: 175px;
     height: auto;
     position: relative;
 }
-#menuVertical ul li a{
+
+#menuVertical ul li a {
     display: flex;
     flex-direction: row;
-    align-items: center; 
+    align-items: center;
     width: 210px;
     height: auto;
     box-sizing: border-box;
     font-size: 16px;
     text-transform: uppercase;
     font-weight: bold;
-    color:#ffffff;
+    color: #ffffff;
     line-height: 2em;
     padding: 10px 15px 10px 0px;
     background: #191b22;
@@ -108,31 +120,35 @@ nav a:hover {
     text-shadow: 2px 2px 3px #222;
     text-align: center;
 }
-#menuVertical ul li a img{
+
+#menuVertical ul li a img {
     display: flex;
     flex-direction: row;
-    align-items: stretch; 
+    align-items: stretch;
     width: 50px;
     margin-left: -7px;
     margin-top: 9px;
     border-radius: 50%;
 }
+
 #menuVertical ul li a span {
     margin-left: 10px;
 }
 
-#menuVertical ul li:hover a{
+#menuVertical ul li:hover a {
     background: #191b22;
     color: #72d0d4;
 }
-#menuVertical ul li a img:hover{
+
+#menuVertical ul li a img:hover {
     border: #72d0d4 2px solid;
 }
+
 .img_n {
     transition: .3s;
 }
 
-.img_n:hover{
+.img_n:hover {
     margin-left: 5px;
     transition: .3s;
 }
@@ -145,23 +161,40 @@ nav a:hover {
     flex-direction: column;
     color: #4d4d4d;
 }
-.main_warrior h1{
+
+.main_warrior h1 {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
     font-size: 500%;
     font-weight: 800;
 }
-.main_warrior p{
+
+.main_warrior p {
     font-size: 130%;
     text-indent: 2em;
 }
 
-.main_shcool, .main_academy, .main_Troops, .main_Baumana, .main_Schedule, .main_ChiefHelper, .main_Magistr, .main_Teacher{
+.main_shcool,
+.main_academy,
+.main_Troops,
+.main_Baumana,
+.main_Schedule,
+.main_ChiefHelper,
+.main_Magistr,
+.main_Teacher {
     margin-top: 30px;
     margin-bottom: 30px;
 }
-.main_shcool h2, .main_academy h2, .main_Troops h2, .main_Baumana h2, .main_Schedule h2, .main_ChiefHelper h2, .main_Magistr h2, .main_Teacher h2 {
+
+.main_shcool h2,
+.main_academy h2,
+.main_Troops h2,
+.main_Baumana h2,
+.main_Schedule h2,
+.main_ChiefHelper h2,
+.main_Magistr h2,
+.main_Teacher h2 {
     text-align: center;
     font-size: 300%;
     font-weight: 500;
@@ -171,18 +204,21 @@ nav a:hover {
 
 
 /*Слайдер*/
-.slideshow-container{
+.slideshow-container {
     max-width: 1000px;
     position: relative;
     margin: auto;
     text-align: center;
 }
-.slideshow-container img{
-cursor: pointer;
-border-radius: 15%;
-padding-top: 20px;
+
+.slideshow-container img {
+    cursor: pointer;
+    border-radius: 15%;
+    padding-top: 20px;
 }
-.prev, .next{
+
+.prev,
+.next {
     cursor: pointer;
     position: absolute;
     top: 50%;
@@ -194,38 +230,52 @@ padding-top: 20px;
     font-size: 18px;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
-    background-color:#091b22;
+    background-color: #091b22;
 }
 
-.next{
+.next {
     right: 0;
     border-radius: 3px 0 0 3px;
 }
-.prev{
+
+.prev {
     left: 0;
     border-radius: 3px 0 0 3px;
 }
-.prev:hover, .next:hover{
+
+.prev:hover,
+.next:hover {
     background-color: #72d0d4;
 }
-.text{
+
+.text {
     font-size: 22px;
     padding: 8px 12px;
     position: absolute;
     bottom: 8px;
     width: 100%;
     text-align: center;
-    color:  #ffffff;
+    color: #ffffff;
     font-weight: bold;
 }
 
-.mySlidesBaumana .text, .mySlidesMagistr .text{
-    color:  #000000;
+.mySlidesBaumana .text,
+.mySlidesMagistr .text {
+    color: #000000;
 }
-.mySlidesMagistr .text{
+
+.mySlidesMagistr .text {
     color: #00ffff;
 }
-.dot, .dotAcademy, .dotTroops, .dotBaumana, .dotSchedule, .dotChiefHelper, .dotMagistr, .dotTeacher{
+
+.dot,
+.dotAcademy,
+.dotTroops,
+.dotBaumana,
+.dotSchedule,
+.dotChiefHelper,
+.dotMagistr,
+.dotTeacher {
     cursor: pointer;
     height: 7%;
     width: 7%;
@@ -233,26 +283,40 @@ padding-top: 20px;
     background-color: #bbb;
     border-radius: 15%;
     display: inline-block;
-    transition: background-color 0.6s ease; 
+    transition: background-color 0.6s ease;
 }
 
-.active, dot:hover{
+.active,
+dot:hover {
     opacity: 0.5;
     border: #72d0d4 3px solid;
 }
-.fade{
+
+.fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 1.5s;
     animation-name: fade;
     animation-duration: 1.5s;
 }
-@-webkit-keyframes fade{
-    from{opacity: .4}
-    to{opacity: 1}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
 }
-@keyframes fade{
-    from{opacity: .4}
-    to{opacity: 1}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
 }
 
 /*Футер*/
@@ -261,126 +325,151 @@ footer {
     background-color: #e83556;
     margin-left: 230px;
 }
-.foot_cards{
- display: flex;
- padding-top: 20px;
- padding-bottom: 20px;
- color: #ffffff;
+
+.foot_cards {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #ffffff;
 }
+
 .foot_card {
- display: flex;
- margin-left: 10px;
- flex-grow: 1;
+    display: flex;
+    margin-left: 10px;
+    flex-grow: 1;
 }
 
 .foot_card b {
-font-size: 150%;
+    font-size: 150%;
 }
 
-.card_left>img{
-border-radius: 50%;
-border: #000000 2px solid;
-width: 50px;
-background-color: #72d0d4;
+.card_left>img {
+    border-radius: 50%;
+    border: #000000 2px solid;
+    width: 50px;
+    background-color: #72d0d4;
 }
-.card_right{
- margin-left: 20px;
+
+.card_right {
+    margin-left: 20px;
 }
-.card_right a{
- color: #ffffff;
+
+.card_right a {
+    color: #ffffff;
 }
+
 .card_right img:hover {
- border: 3px #ffffff solid;
- border-radius: 50%;
+    border: 3px #ffffff solid;
+    border-radius: 50%;
 }
+
 /*Адаптив*/
-@media all and (max-width: 1200px){
+@media all and (max-width: 1200px) {
     header nav a {
         margin-left: 10px;
         margin-right: 10px;
     }
-    
-}
-    @media all and (max-width: 1000px){
-        header nav .links a {
-            display: none;
-        }
-        header nav a.icon{
-            display: block;
-            float: right;
-            color: #ffffff;
-            font-size: 45px;
-        }
-        nav{
-            width: 100%;
-           }
-        .links.responsive{
-            display: flex;
-            flex-direction: column;
-            background: url(../img/main/header_back.jpg); 
-            height: 140px;
-            
-        }
-            .links.responsive a.icon{
-                position: absolute;
-                top: -40px;
-                right: -200px;
-            }
-            .links.responsive a{
-                float: none;
-                display: block;
-                text-align: left;
-                margin-top: 10px;
-            }
-            
-        header{
-            padding-bottom: 40px;
-        }
-        #header_stand {
-            height: 90px;
-        }
-         .header_stand.responsive{
-            display: flex;
-            flex-direction: column;
-        }
-        #menuVertical{
-            width: 80px;
-            transition: .3s;
-            top: 135px;
-        }
-        #menuVertical ul li a{
-            width: 57px;
-            transition: .3s;
-        }
-        #menuVertical ul li{
-            width: 57px;
-        }
-        #menuVertical ul li a img{
-            justify-content: center;
-        }
-        span{
-            display: none;
-        }
-        
-        .main_shcool h2, .main_academy h2, .main_Troops h2, .main_Baumana h2, .main_Schedule h2{
-            padding-top: 150px;
-          }
-          .main_warrior{
-            margin-left: 80px;
-          }
-        
-        
-        footer {
-            margin-left: 80px;
-        }
 
-        .foot_cards{
-            flex-direction: column;
-        }
-        .foot_card{
-            margin-top: 20px;
-            margin-left: auto;
-            margin-right: auto;
-            text-align: center;
-        }
+}
+
+@media all and (max-width: 1000px) {
+    header nav .links a {
+        display: none;
     }
+
+    header nav a.icon {
+        display: block;
+        float: right;
+        color: #ffffff;
+        font-size: 45px;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    .links.responsive {
+        display: flex;
+        flex-direction: column;
+        background: url(../img/main/header_back.jpg);
+        height: 140px;
+
+    }
+
+    .links.responsive a.icon {
+        position: absolute;
+        top: -40px;
+        right: -200px;
+    }
+
+    .links.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+        margin-top: 10px;
+    }
+
+    header {
+        padding-bottom: 40px;
+    }
+
+    #header_stand {
+        height: 90px;
+    }
+
+    .header_stand.responsive {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #menuVertical {
+        width: 80px;
+        transition: .3s;
+        top: 135px;
+    }
+
+    #menuVertical ul li a {
+        width: 57px;
+        transition: .3s;
+    }
+
+    #menuVertical ul li {
+        width: 57px;
+    }
+
+    #menuVertical ul li a img {
+        justify-content: center;
+    }
+
+    span {
+        display: none;
+    }
+
+    .main_shcool h2,
+    .main_academy h2,
+    .main_Troops h2,
+    .main_Baumana h2,
+    .main_Schedule h2 {
+        padding-top: 150px;
+    }
+
+    .main_warrior {
+        margin-left: 80px;
+    }
+
+
+    footer {
+        margin-left: 80px;
+    }
+
+    .foot_cards {
+        flex-direction: column;
+    }
+
+    .foot_card {
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+}
